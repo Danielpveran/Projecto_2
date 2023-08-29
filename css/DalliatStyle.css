@@ -4,25 +4,44 @@
  }
 
   h2{
-   font-size:300% ;
+   font-size:100% ;
    text-align: center;
+   padding-bottom: 100px;
+   padding-top: 100px;
+   font-size: 40px;
   }
 
 #InicioNavbar{
    background-color: #b19827;
-   color: #000000;
+   color: #b19827;;
    font-size: 18px;
    font-family: sans-serif;
-   text-align: center;
+   text-align: left;
    padding: 10px;
-   border: 1px solid #000000;
+   border: 1px solid #b19827;;
+}
+ul{
+   background-color: #b19827;
 }
 li{
    background-color: #b19827;
    display: inline-block;
+   font-size: 2em;
+}
+img{
+   width: 100px;
+}
+#Li1{
+   text-align: center;
+   background-color: #b19827;
+}
+#li2{
+   background-color: #b19827;
+}
+#li3{
+   background-color:#b19827;
 }
 #Intro{
    text-align: justify;
-   border:3px solid #ffffff;
-   font-size: 50px;
+   font-size: 16pt;
   }
