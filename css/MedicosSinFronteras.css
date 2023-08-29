@@ -1,0 +1,13 @@
+ head{
+    
+ }
+ #PageHead{
+    padding: 3em;
+    text-align: center;
+    font-family: 'Fasthand', cursive;
+    font-size: 2.1em;
+    box-sizing: border-box;
+    margin: 3%;
+    border-radius: 2em;
+    border: 3px solid black;
+  }
