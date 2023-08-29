@@ -2,28 +2,27 @@
     background-color: rgb(0, 0, 0);
     color: #ffffff;
  }
- #PageHead{
-    padding: 0% 30%;
-    background-color: #000000;
-    padding: 3em;
-    text-align: center;
-    font-family: 'Fasthand', cursive;
-    font-size: 80px;
-    box-sizing: border-box;
-    margin: 0% 15% 20% 15%;
-    border-radius: 2em;
-    border: 3px solid rgb(212, 173, 18);
-    box-shadow: 30px 10px 30px 3px rgb(212, 173, 18); /*El orden es de movimiento en eje X, movimiento en eje Y, Tamaño de desenfoque, Cantidad de Borde y color */
-  }
+
   h2{
    font-size:300% ;
    text-align: center;
   }
+
+#InicioNavbar{
+   background-color: #b19827;
+   color: #000000;
+   font-size: 18px;
+   font-family: sans-serif;
+   text-align: center;
+   padding: 10px;
+   border: 1px solid #000000;
+}
+li{
+   background-color: #b19827;
+   display: inline-block;
+}
 #Intro{
    text-align: justify;
    border:3px solid #ffffff;
    font-size: 50px;
   }
-#logo{
-   text-align: center;
-}
