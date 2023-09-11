@@ -8,18 +8,21 @@
    background-color: #b19827;
    color: rgb(0, 0, 0);
  }
- li{
-   background-color: #b19827;
-   display: inline-block;
-   font-size: 2em;
-}
- li,a{
+
+li,.nav{
    background-color: #b19827;
    padding-left: 15px;
+   color: black;
+   display: inline-block;
+   font-size: 1.50em;
+ }
+ #Us{
+   background-color: #b19827;
    color: black;
  }
  ul{
    background-color: #b19827;
+   
  }
 
 h2{
@@ -43,10 +46,11 @@ h2{
 }
 .RankingH{
    width: 500px;
+   height: 500px;
+   background-color: #000000;
    box-shadow: 0 0 10px rgba(255, 255, 255, 0.575, 0.5);
    transition: box-shadow 0.5s ease-in-out;
 }
 .RankingH :hover{
    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.7);
 }
-
