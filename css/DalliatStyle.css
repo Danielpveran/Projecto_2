@@ -1,56 +1,122 @@
- *{
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
-   margin: 0px;
- }
+*{
+   background-color: rgb(0, 0, 0);
+   color: #ffffff;
+  margin: 0px;
+  
+}
 
- h1{
-   background-color: #b19827;
-   color: rgb(0, 0, 0);
- }
+h1{
+  background-color: #b19827;
+  color: rgb(0, 0, 0);
+}
 
 li,.nav{
-   background-color: #b19827;
-   padding-left: 15px;
-   color: black;
-   display: inline-block;
-   font-size: 1.50em;
- }
- #Us{
-   background-color: #b19827;
-   color: black;
- }
- ul{
-   background-color: #b19827;
-   
- }
+  background-color: #b19827;
+  padding-left: 15px;
+  color: black;
+  display: inline-block;
+  font-size: 1.50em;
+}
+#Us{
+  background-color: #b19827;
+  color: black;
+}
+ul{
+  background-color: #b19827;
+  
+}
 
 h2{
-   font-size:100% ;
-   text-align: center;
-   padding-bottom: 100px;
-   padding-top: 100px;
-   font-size: 40px;
-  }
+  font-size:100% ;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  font-size: 40px;
+ }
 
 .InicioNavbar{
-   background-color: #b19827;
-   color: #b19827;
-   font-size: 15px;
-   font-family: Helvetica, Arial;
-   text-align: left;
-   padding: 5px;
+  background-color: #b19827;
+  color: #b19827;
+  font-size: 15px;
+  font-family: Helvetica, Arial;
+  text-align: left;
+  padding: 5px;
 }
 .ImgHouse{
-   width: 100px;
+  width: 100px;
+  background-color: #b19827;
 }
 .RankingH{
-   width: 500px;
-   height: 500px;
-   background-color: #000000;
-   box-shadow: 0 0 10px rgba(255, 255, 255, 0.575, 0.5);
-   transition: box-shadow 0.5s ease-in-out;
+  background-color: #000000;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.575, 0.5);
+  transition: box-shadow 0.5s ease-in-out;
+  position: relative;
+  top: 30%;
+  left: 30%;
+  transform: translate(-30%, 0.1000%);
 }
 .RankingH :hover{
-   box-shadow: 0 10px 20px rgba(255, 255, 255, 0.7);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.7);
 }
+
+#R1{
+  width: 900px;
+  height: 500px;
+}
+
+#RankingH1 {
+   position: absolute;
+   top: 44%;
+   left: 27%;
+   z-index: 1;
+   color: #b19827;
+   font-size: 80px;
+   background-color: transparent;
+   transition: color 0.1s ease-in;
+ }
+ 
+ #RankingH1:hover {
+   color: rgb(0, 0, 0);
+ }
+ #RankingH2 {
+   position: absolute;
+   top: 44%;
+   left: 68%;
+   z-index: 1;
+   color: #b19827;
+   font-size: 80px;
+   background-color: transparent;
+   transition: color 0.1s ease-in;
+ }
+
+ #RankingH2:hover {
+   color: rgb(0, 0, 0);
+ }
+ #RankingH3 {
+   position: absolute;
+   top: 85%;
+   left: 28%;
+   z-index: 1;
+   color: #b19827;
+   font-size: 80px;
+   background-color: transparent;
+   transition: color 0.1s ease-in;
+ }
+
+ #RankingH3:hover {
+   color: rgb(0, 0, 0);
+ }
+ #RankingH4 {
+   position: absolute;
+   top: 85%;
+   left: 67%;
+   z-index: 1;
+   color: #b19827;
+   font-size: 80px;
+   background-color: transparent;
+   transition: color 0.1s ease-in;
+ }
+
+ #RankingH4:hover {
+   color: rgb(0, 0, 0);
+ }
